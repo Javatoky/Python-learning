@@ -7,7 +7,7 @@ def slow_down(seconds: float):
         @functools.wraps(func)
         def wrapper(*args, **kwargs):
             time.sleep(seconds)
-            result  = func(*args,*kwargs)
+            result  = func(*args,**kwargs)
             return result
         return wrapper
     return decorator
