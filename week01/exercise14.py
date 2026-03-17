@@ -3,10 +3,11 @@ for i in range(1, 6):
     print("".join(line))
 
 pi = 3.141592653589793
+t = 33
 print(f"{pi:.2f}")
 print(f"{pi:.6f}")
 print(f"{pi:.2%}")
-print(f"{pi:.2e}")
+print(f"{t:>03}")
 
 students = [
     ("Alice", 92, 88, 95),
