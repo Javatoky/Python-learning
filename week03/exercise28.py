@@ -3,8 +3,8 @@ from pathlib import Path
 print(Path.cwd())
 for f in Path("week02").glob("*.py"):
     print(f)
-Path("data/raw").mkdir(parents = True, exist_ok= True)
-Path("data/processed").mkdir(parents = True, exist_ok= True)
+Path("week03/data/raw").mkdir(parents = True, exist_ok= True)
+Path("week03/data/processed").mkdir(parents = True, exist_ok= True)
 
 print(Path("data/raw").exists())
 
