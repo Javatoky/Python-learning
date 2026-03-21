@@ -202,6 +202,7 @@ if __name__ == "__main__":
     doc1.chunk()
     doc2.chunk()
     doc3.chunk()
+    print(doc2.chunk())
 
     query_and_result = QueryResult("人工智能", [])
     query_and_result.chunks = store.search_chunks(query_and_result.query)
